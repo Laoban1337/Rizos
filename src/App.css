@@ -1,45 +1,35 @@
+/* ✅ GLOBAL LAYOUT (REPLACES OLD VITE ROOT BLOCK) */
+html,
+body {
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+body {
+  margin: 0;
+  padding-top: 70px; /* space for fixed navbar */
+}
+
+/* ✅ APP LAYOUT FOR STICKY FOOTER */
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  min-height: calc(100vh - 70px);
+  display: flex;
+  flex-direction: column;
 }
 
+/* ✅ KEEP LOGO (CLEANED VERSION) */
 .logo {
-  height: 16em;
-  width: 32em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-  justify-content: center;
-  align-items: center;
+  display: block;           /* removes inline spacing issues */
+  height: 60px;             /* slightly smaller than navbar */
+  width: auto;
+  object-fit: contain;
+  cursor: pointer;
+
+  transition: transform 0.2s ease, filter 0.2s ease;
 }
+
+/* subtle hover (optional but clean) */
 .logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+  transform: scale(1.05);
+  filter: drop-shadow(0 0 6px rgba(0, 0, 0, 0.15));
 }

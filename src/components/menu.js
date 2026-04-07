@@ -32,4 +32,10 @@ export const menuItems = [
     price: 12,
     description: "More specialty or more than 3 inclusions can impact price.",
   },
+  {
+    id: "Muffin of the month",
+    name: "Muffin of the month",
+    price :14,
+    description: " one dozen: Pistachi Muffin"
+  },
 ];
