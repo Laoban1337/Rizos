@@ -1,5 +1,10 @@
 export const menuItems = [
-  { id: "trad-loaf", name: "Traditional Sourdough Loaf", price: 10, description: "" },
+  {
+    id: "trad-loaf",
+    name: "Traditional Sourdough Loaf",
+    price: 10,
+    description: "",
+  },
   {
     id: "garlic-herb-cheese",
     name: "Garlic Herb and Cheese Loaf",
@@ -10,7 +15,8 @@ export const menuItems = [
     id: "jalapeno-cheddar",
     name: "Jalapeno Garlic Cheddar Loaf",
     price: 12,
-    description: "Sourdough loaf with jalapeno, garlic, and cheddar cheese. Choose Hot or Mild.",
+    description:
+      "Sourdough loaf with jalapeno, garlic, and cheddar cheese. Choose Hot or Mild.",
   },
   {
     id: "cheese-its",
@@ -33,9 +39,10 @@ export const menuItems = [
     description: "More specialty or more than 3 inclusions can impact price.",
   },
   {
-    id: "Muffin of the month",
+    id: "muffin-of-the-month",
     name: "Muffin of the month",
-    price :14,
-    description: " one dozen: Pistachi Muffin"
+    price: 14,
+    unit: "Dozen",
+    description: " Pistachio Muffin",
   },
 ];
