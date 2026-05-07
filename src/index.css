@@ -175,7 +175,7 @@ button:focus-visible {
 }
 
 .landingText {
-  font-family: cursive, sans-serif;
+  font-family: sans-serif;
   font-size: 1.5rem;
   line-height: 1.6;
   color: whitesmoke;
@@ -236,7 +236,9 @@ button:focus-visible {
   border: 1px solid #d1d5db;
   border-radius: 10px;
   outline: none;
-  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
 }
 
 #order-form input:focus,
@@ -275,7 +277,9 @@ button:focus-visible {
   font-size: 1rem;
   font-weight: 600;
   cursor: pointer;
-  transition: background-color 0.2s ease, transform 0.15s ease;
+  transition:
+    background-color 0.2s ease,
+    transform 0.15s ease;
 }
 
 #order-form button:hover:not(:disabled) {
