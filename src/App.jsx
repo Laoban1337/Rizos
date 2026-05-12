@@ -11,7 +11,7 @@ function Home() {
   return (
     <>
       <div className="landingImgContainer">
-        <h1 className="welcome text"> Welcome</h1>
+        <h1 className="header-text"> Welcome</h1>
         <img src={Rizo} className="landingLogo" alt="Rizo's banner" />
         <p className="landingText">
           Rizo finds joy in the quiet magic of baking, where simple ingredients

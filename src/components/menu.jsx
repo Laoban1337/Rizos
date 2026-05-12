@@ -6,7 +6,7 @@ export default function Menu() {
       
 
       <div className="menu-list">
-        <h1 className="menu-text"> Homemade Creations</h1>
+        <h1 className="header-text"> Homemade Creations</h1>
         {menuItems.map((item) => (
           <div key={item.id} className="menu-item">
             <h2>{item.name}</h2>
