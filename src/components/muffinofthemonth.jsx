@@ -18,9 +18,9 @@ export default function MuffinOfTheMonth() {
     
       <h1 className="header-text">Muffin the month</h1>
       <div className="muffin-container">
-        <p> This month: {muffins[0].name}</p>
+        <p> This month: {muffins[1].name}</p>
         <img  className ="muffin-img"src={muffin}/>
-        <p className="next-month"> Next Month: {muffins[1].name}</p>
+        <p className="next-month"> Next Month: {muffins[2].name}</p>
         {/* {GetMuffins()} */}
       </div>
     </>
