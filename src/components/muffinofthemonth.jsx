@@ -1,4 +1,4 @@
-import muffin from "../../public/muffin.png"
+import muffin from "../../public/blueberry.png"
 import MuffinsOfTheMonth from "./mom"
 const muffins = MuffinsOfTheMonth
 
